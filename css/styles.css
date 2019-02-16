@@ -1,0 +1,114 @@
+/* CSS Colors
+    #c8361c
+    #ff5e41
+    #fff
+    #8f8f8f
+*/
+
+/* Global */
+
+body{
+    margin: 0;
+    text-align: center !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h2,h3{
+    font-weight: 700 !important;
+}
+
+p{
+    color: #8f8f8f;
+    line-height: 1.5;
+}
+
+.big-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.container-fluid{
+    padding: 7% 15% !important;
+}
+
+.download-button{
+    margin: 4rem 0.5rem 0 0.5rem;
+}
+
+/* Homepage */ 
+
+#title{
+    background-color: #c8361c;
+    color: #fff;
+    text-align: left !important;
+}
+
+#title .container-fluid{
+    padding: 3% 15% !important; 
+}
+
+.title-image img{
+    width: 80%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+.title-section{
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Features */ 
+
+#features{
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-icons{
+    color: #ff5e41;
+}
+
+.feature-icons:hover{
+    color: #c8361c;
+}
+
+/* Testimonials */
+
+#testimonials,
+#press{
+    background-color: #ff5e41;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.mb-carousel{
+    margin-bottom: 4rem;
+}
+
+.press-image{
+    width: 8%;
+    margin-bottom: 4rem;
+}
+
+/* Download */
+
+#cta{
+    background-color: #c8361c;
+    color: #fff;
+}
+
+/* Footer */ 
+
+#footer p{
+    font-size: 0.7rem;
+}
