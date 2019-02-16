@@ -118,12 +118,14 @@ p{
 @media (max-width: 1028px){
     
     #title{
-        text-align: center;
+        text-align: center !important;
     }
     
-    .title-image{
+    .title-image img{
         position: static;
         transform: rotate(0);
+        margin-top: 3rem !important;
     }
     
 }
+
