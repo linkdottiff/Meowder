@@ -112,3 +112,18 @@ p{
 #footer p{
     font-size: 0.7rem;
 }
+
+/* Media Querys */
+
+@media (min-width: 900px){
+    
+    #title{
+        text-align: center;
+    }
+    
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
